@@ -16,7 +16,9 @@
              theme: {
                extend: {
                  colors: {
-                   clifford: '#da373d',
+                   'primary-font-color': '#414040',
+                   'bg-primary-color': '#B68C5A',
+                   'seconder-text-color': '#707070',
                  }
                }
              }
@@ -25,11 +27,71 @@
       <style>
            /* man-rop font from google font */
            .font-manrope{
-                font-family: 'Poppins', sans-serif;
+               
            }
       </style>
 </head>
-<body>
-     
+<body class="bg-white">
+     <!-- header section start form here -->
+     <header class="container mx-auto">
+          <div class="navbar bg-white">
+               <div class="navbar-start ">
+                 <div class="dropdown">
+                   <label tabindex="0" class="btn btn-ghost lg:hidden">
+                   </label>
+                    <div class=" text-xl">
+                         <ul tabindex="0" class="dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
+                              <li><a>Home<i class="fa-solid fa-angle-right"></i></a></li>
+                              <li><a>Services<i class="fa-solid fa-angle-right"></i></a></li>
+                              <li><a>Cases<i class="fa-solid fa-angle-right"></i></a></li>
+                              <li><a>Blog<i class="fa-solid fa-angle-right"></i></a></li>
+                              <li><a>Contact Us<i class="fa-solid fa-angle-right"></i></a></li>
+                            </ul>
+                    </div>
+                 </div>
+                 <img src="images/logo2.png" alt="">
+               </div>
+               <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal text-xl seconder-text-color px-1">
+                         <li><a>Home<i class="fa-solid fa-angle-right"></i></a></li>
+                         <li><a>Services<i class="fa-solid fa-angle-right"></i></a></li>
+                         <li><a>Cases<i class="fa-solid fa-angle-right"></i></a></li>
+                         <li><a>Blog<i class="fa-solid fa-angle-right"></i></a></li>
+                         <li><a>Contact Us<i class="fa-solid fa-angle-right"></i></a></li>
+                      </ul>
+               </div>
+               <div class="navbar-end">
+                 <a class="btn bg-bg-primary-color text-white outline-none border-0">Free Consultation</a>
+               </div>
+          </div>
+    <!-- hero section start form here -->
+          <div class="hero min-h-auto rounded-xl" style="background-image: url(images/banner.png);">
+               <div class="hero-overlay rounded-xl bg-opacity-60"></div>
+               <div class="hero-content text-center text-neutral-content">
+                 <div class="max-w-3xl">
+                   <h1 class="mb-5 text-7xl font-bold">We Provide Effective 
+                    Legal Solutions</h1>
+                   <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have 
+                    <br>suffered alteration in some form, by injected humour.</p>
+                    <input type="search" placeholder="What Are You Looking for...?" class=" p-5 w-96 bg-white rounded-lg">
+                   <button class="btn btn-primary p-5 ">Search</button>
+                 </div>
+               </div>
+             </div>
+
+     </header>
+     <!-- header section end form here -->
+ 
+     <!-- main section start form here -->
+     <main class="container mx-auto">
+
+     </main>
+     <!-- main section end form here -->
+
+     <!-- footer section start form here -->
+     <footer>
+
+     </footer>
+     <!-- footer section end form here -->
 </body>
 </html>
